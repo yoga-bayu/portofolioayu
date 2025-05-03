@@ -9,7 +9,7 @@ export default function HomeSection() {
         className="min-h-screen bg-cover bg-center flex items-center justify-center text-center px-4"
         style={{ backgroundImage: "url('/background.png')" }}
       >
-        <div className="">
+        <div>
           {/* Foto Profil */}
           <motion.div
             initial={{ x: 100, opacity: 0 }}
@@ -33,7 +33,7 @@ export default function HomeSection() {
           >
             <h1 className="text-5xl font-bold text-white mb-5">Ayu Wandira</h1>
             <p className="text-white mb-10 text-xl w-[300px] md:w-[500px] mx-auto">
-              "Dengan logika setajam algoritma, dia menulis masa depan satu function pada satu waktu."
+              &quot;Dengan logika setajam algoritma, dia menulis masa depan satu function pada satu waktu.&quot;
             </p>
           </motion.div>
 
